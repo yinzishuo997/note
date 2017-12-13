@@ -12,10 +12,20 @@
 
 ### THREAD
 
-### Thread Usage
+#### Thread Usage
 
-#### reason
+##### reason
 
 * the ability for the parallel entities to share an address space and all of its data among themselves
 * lighter weight than processes, easier(i.e., faster) to create and destory.
 * though yield no performance gain, when substantial computing or I/O, having threads allows these activities to overlap.
+
+#### The Classical Thread Model
+
+##### based on two independent concepts
+
+* resource grouping
+* execution
+
+##### each thread has its own stack
+

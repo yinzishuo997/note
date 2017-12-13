@@ -27,3 +27,27 @@
 * yield
 * overlap
 * peripheral
+
+### 12/13
+
+* esthetical
+* nuisance
+* pending
+* albeit
+* presumably
+* in this regard   
+* consecutive
+* hybrid
+* scarce
+* advent
+* render
+* invalidate
+* burst
+* legitimate
+* semaphore
+* preemptive
+* payroll
+* inventory
+* hog
+* degradation
+* comparable
