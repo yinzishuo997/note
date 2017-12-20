@@ -51,3 +51,70 @@
 * hog
 * degradation
 * comparable
+* proportionality
+* irritated
+* streak
+* foam
+* erratic
+* deteriorate
+* jitter
+* devise
+* net
+* pecking order
+* dean
+* janitor
+* colonel
+* major
+* lieutenants
+* extent
+* lottery
+* stumili
+* peculiar
+* aperiodic
+* tacit
+* forcible
+* depict
+* magnitude
+* literature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 12/17
+
+* elaborate
+* disastrous
+* toaster
+* chunk
+* hyphen
+* propagation
