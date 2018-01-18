@@ -118,3 +118,117 @@
 * chunk
 * hyphen
 * propagation
+* straddle
+* coalesce
+* bloat
+* prone
+* vice versa
+* evict
+* arcane
+* bottleneck
+* purge
+* moderate
+* extensively
+* obsolete
+* resilient
+* convention
+* register
+* imposed
+
+
+
+
+
+
+
+
+
+
+
+### 12/18
+
+* critter
+* carriage return 
+* line feed character
+* pipeline
+* plumbing
+* archive
+* gibberish
+* indentation
+* novice
+* circumvent
+* rewound
+* fragmentation
+* compact
+* doable
+* prematurely
+* extents
+* nuisance
+* acyclic
+* heterogeneous
+* encompass
+* disentangle
+* provision
+* elasticity
+* consolidate
+
+
+
+
+
+
+
+
+### 12/19
+
+* conspicuous
+* caveat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

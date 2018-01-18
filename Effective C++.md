@@ -47,3 +47,10 @@
 ### imten 06 : Explicitly disallow the use of compiler-generated functions you do not want
 
 * 并非所有 base classes 的设计目的都是为了多态用途.
+
+
+### item 20 : Prefer ``pass-by-reference-to-const`` to ``pass-by-value``
+
+* 由对象的 copy 构造函数产出.
+* 一般而言, 你可以合理假设 "pass-by-value 并不昂贵"的唯一对象就是内置类型和 STL 的迭代器和函数对象.
+* 绝不要返回 pointer 或 reference 指向一个 local stack 对象, 或返回 reference 指向一个 heap-allocated 对象, 或返回 pointer 或 reference 指向一个 local static 对象而有可能同时需要多个这样的对象. 

@@ -1,31 +1,16 @@
-# Mordern Operating System
+### chp6 死锁
 
-## chp2 PROCESS
+* 独占性资源
+    * 打印机
+    * 磁带
+    * 系统内部表中的表项
 
-### PROCESS
+* 资源死锁的条件
+    * 互斥条件. 每个资源要么已经分配给一个进程, 要么就是可用的
+    * 占有和等待条件. 已经得到某个资源的进程可以再请求新的资源
+    * 不可抢占条件. 已经分配给一个进程的资源不能强制性地被抢占, 它只能被占有它的资源显示释放
+    * 环路等待条件. 死锁发生时, 系统中一定有由两个或两个以上的进程组成的一条环路, 该环路中的每个进程都在等待着下一个进程所占有的资源
 
-* pseudoparallelism & multiprocessor
-* A process is just an instance of an executing program, including the current vallues of the program counter, gegisters and variables.
-* daemons
-* execve
-* process talbe / process control blocks    
-
-### THREAD
-
-#### Thread Usage
-
-##### reason
-
-* the ability for the parallel entities to share an address space and all of its data among themselves
-* lighter weight than processes, easier(i.e., faster) to create and destory.
-* though yield no performance gain, when substantial computing or I/O, having threads allows these activities to overlap.
-
-#### The Classical Thread Model
-
-##### based on two independent concepts
-
-* resource grouping
-* execution
-
-##### each thread has its own stack
-
+* 安全状态和不安全状态的区别
+    * 从安全状态出发, 系统能够保证所有进程都能完成
+    * 从不安全状态出发, 就没有这样的保证

@@ -32,6 +32,20 @@
 * 当 class 声明了一个或多个 virtual functions 时
 * 当 class 派生自一个继承串链, 其中有一个或多个 virtual base classes
 
+## chp3 The Semantics of Data
+
+### Inheritance without Polymorphism
+
+* 一般而已, 具体继承(concrete inheritance)并不会增加空间或存时间上的额外负担.
+
+### Adding Polymorphism
+
+* 空间和存取时间上的额外负担:
+    * 导入 virtual table
+    * vptr
+    * 加强 constructor, 使它能够为 vptr 设定初值, 让它指 class 所对应的 virtual table
+    * 加强 destructor, 
+
 
 
 
