@@ -16,6 +16,7 @@ int sokcet(int family, int type, int protocol);
         
 <html>
     <body>
+        <h4> socket函数的type常值 </h4>
         <table border = "1">
             <tr>
                 <th> type </th>
