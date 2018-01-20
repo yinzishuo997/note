@@ -7,7 +7,7 @@ int sokcet(int family, int type, int protocol);
 ```
 
 |family（地址族）|说明             |
-|-------------:|:---------------:|
+|-------------|:---------------:|
 |AF_INET    |IPv4协议             |
 |AF_INET6   |IPv6协议             |
 |AF_LOCAL   |Unix域协议           |
