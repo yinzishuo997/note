@@ -14,32 +14,12 @@ int sokcet(int family, int type, int protocol);
 |AF_ROUTE   |路由套接字           |
 |AF_KEY     |密钥套接字           |
         
-<html>
-    <body>
-        <table border = "1">
-            <tr>
-                <th> type </th>
-                <th> 说明 </th>
-            </tr>
-            <tr>
-                <td> SOCK_STREAM </td>
-                <td> 字节流套接字 </td>
-            </tr>
-            <tr>
-                <td> SOCK_DGRAM </td>
-                <td> 数据报套接字</td>
-            </tr>
-            <tr>
-                <td> SOCK_SEQPACKET </td>
-                <td> 有序分组套接字  </td>
-            </tr>
-            <tr>
-                <td> SOCK_RAW   </td>
-                <td> 原始套接字  </td>
-            </tr>
-        </table>
-    </body>
-</html>
+|type           |说明                |
+|:-------------:|:------------------:|
+|SOCK_STREAM    |字节流套接字         |
+|SOCK_DGRAM     |数据包套接字         |
+|SOCK_SEQPACKET |有序分组套接字      |
+|SOCK_RAW       |原始套接字          |
 
 |protocol   | 说明        |
 |:----------:|:-----------:|
