@@ -24,6 +24,19 @@ int sokcet(int family, int type, int protocol);
             <tr>
                 <td> SOCK_STREAM </td>
                 <td> 字节流套接字 </td>
+            </tr>
+            <tr>
+                <td> SOCK_DGRAM </td>
+                <td> 数据报套接字</td>
+            </tr>
+            <tr>
+                <td> SOCK_SEQPACKET </td>
+                <td> 有序分组套接字  </td>
+            </tr>
+            <tr>
+                <td> SOCK_RAW   </td>
+                <td> 原始套接字  </td>
+            </tr>
         </table>
     </body>
 </html>
