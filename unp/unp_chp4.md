@@ -6,6 +6,10 @@
 int sokcet(int family, int type, int protocol);
 ```
 
-|family     |comment      |
-|:---------:|:-----------:|
-|AF_INET    |IPv4         |
+|family（地址族）|说明             |
+|:-------------:|:---------------:|
+|AF_INET    |IPv4协议             |
+|AF_INET6   |IPv6协议             |
+|AF_LOCAL   |Unix域协议           |
+|AF_ROUTE   |路由套接字           |
+|AF_KEY     |密钥套接字           |
