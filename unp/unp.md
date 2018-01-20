@@ -37,6 +37,7 @@ uint32_t
 sa_family_t
 socklen_t   // uint32_t
 ```
+
 ```cpp
 
 #include <netinet/in.h>
@@ -74,7 +75,7 @@ struct sockaddr_storage {
     uint8_t     ss_len;
     sa_family_t ss_family
 };
-
+```
 
 ### 字节排序函数
 ```c
@@ -86,3 +87,42 @@ uint32_t htonl(uint32_t host32bitvalue);
 uint16_t ntohs(uint16_t net16bitvalue);
 uint32_t ntohl(uint32_t net32bitvalue);
 ```
+
+### 字节操纵函数
+```c
+
+#include <string.h>
+
+void bzero(void *dest, size_t nbytes);
+void bcopy(void *src, void *dest, size_t nbytes);
+int bcmp(const void *ptr1, const void *ptr2, size_t nbytes);
+
+/* ANSI C */
+void *memset(void *dest, int c, size_t len);
+void *memcpy(void *dest, const void *src, size_t nbytes);
+int memcmp(const void *ptr1, const void *ptr2, size_t nbytes);
+```
+
+### inet_aton inet_addr inet_ntoa
+
+```c
+#include <arpa/inet.h>
+
+int inet_aton(const char *strptr, struct in_addr *addptr);
+int_addr_t inet_addr(const char *strptr);
+char *inet_ntoa(struct in_addr inaddr);
+```
+
+### inet_pton inet_ntop
+
+```c
+#include <arpa/inet.h>
+
+int inet_pton(int family, const char *strptr, void *addrptr);
+const char *inet_ntop(int family, const void *addrptr, char *strptr, size_t len);
+
+#define INET_ADDRSTRLEN 16      /* for IPv4 dotted-decimal */
+#define INET6_ADDRSTRLEN 46     /* for IPv6 hex string */
+
+```
+
