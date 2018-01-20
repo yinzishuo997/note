@@ -17,7 +17,7 @@ int sokcet(int family, int type, int protocol);
 <html>
     <body>
         <table border = "1">
-            <caption align = "center"> socket函数的type常值 </caption>
+            <caption> socket函数的type常值 </caption>
             <tr>
                 <th> type </th>
                 <th> 说明 </th>
@@ -41,3 +41,9 @@ int sokcet(int family, int type, int protocol);
         </table>
     </body>
 </html>
+
+|protocol   | 说明        |
+|:----------:|:-----------:|
+|IPPROTO_TCP | TCP          |
+|IPPROTO_UDP|   UDP         |
+|IPPROTO_SCTP| SCTP         |
