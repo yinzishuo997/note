@@ -45,4 +45,44 @@ in_addr_t   //ipv4地址, uint32_t
 in_port_t   //TCP或UDP端口, uint16_t
 ```
 
+### IPv6 套接字地址结构
+```cpp
 
+#include <netinet/in.h>
+
+struct in6_addr {
+    unit8_t s6_addr[16];
+};
+
+#define SIN6_LEN
+
+struct sockaddr_in6 {
+    unit8_t         sin6_len;       // length of this struct 28;
+    sa_family_t     sin6_family;    // AF_INET6
+    in_port_t       sin6_port;      // network byte ordered transport layer port
+    uint32_t        sin6_flowinfo;  // flow information, undefined
+    struct in6_addr sin6_addr;      // network byte ordered IPv6 address
+    uint32_t        sin6_scope_id;  // set of interfaces for a scope
+};
+
+```
+
+### 新的通用套接字地址结构
+```cpp
+#include <netinet/in.h>
+struct sockaddr_storage {
+    uint8_t     ss_len;
+    sa_family_t ss_family
+};
+
+
+### 字节排序函数
+```c
+#include <netinet/in.h>
+
+uint16_t htons(uint16_t host16bitvalue);
+uint32_t htonl(uint32_t host32bitvalue);
+
+uint16_t ntohs(uint16_t net16bitvalue);
+uint32_t ntohl(uint32_t net32bitvalue);
+```
